@@ -20,7 +20,7 @@ function displayTemperature(response) {
   let icon = document.querySelector("#icon");
 
   time.innerHTML = formatDate(date);
-  icon.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-app-icon" />`;
+  icon.innerHTML = `<img src="${response.data.condition.icon_url}" class="current-temperature-icon" />`;
 }
 
 function formatDate(date) {
